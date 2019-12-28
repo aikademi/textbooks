@@ -1,20 +1,17 @@
-# Circles and Pi
+# 圆与圆周率
 
-## Introduction
+## 引言
 
 > section: introduction
 > id: intro
 
 ::: column.grow
 
-For as long as humans exist, we have looked to the sky and tried to explain life
-on Earth using the motion of stars, planets and the moon.
+自人类以来，我们仰望天空并试图通过观察日月星辰的运动来研究地球上面的生命。
 
-Ancient Greek astronomers were the first to discover that all celestial objects
-move on regular paths, called __orbits__. They believed that these orbits are
-always circular. After all, circles are the “most perfect” of all shapes:
-symmetric in every direction, and thus a fitting choice for the underlying
-order of our universe.
+
+古希腊的天文学家最早发现，所有的天体按照称为轨道的固定路径运转。他们认为这些轨道总是圆形的。毕竟，圆是各种形状中“最完美”的一种——从各个方向看都是对称的，因此也最适合于揭示宇宙秩序的奥秘。
+
 
 ::: column(width=320)
 
@@ -28,8 +25,8 @@ order of our universe.
 > id: radius
 > goals: compass
 
-Every point on a [__circle__](gloss:circle) has the same distance from its
-center. This means that they can be drawn using a [compass](gloss:compass):
+
+[__圆__](gloss:circle) 上的任意一点到圆心的距离都是相等的。这意味着我们可以使用[圆规](gloss:compass):进行画圆。
 
 ::: column(width=320)
 
@@ -45,16 +42,14 @@ center. This means that they can be drawn using a [compass](gloss:compass):
 
 ::: column.grow
 
-{.reveal(when="compass")} There are three important measurements related to
-circles that you need to know:
+{.reveal(when="compass")} 圆有三个要素你需要知道：
 
 * {.reveal(when="compass" delay="1000")} The [{.step-target.pill.b.red}radius](target:r)
-  is the distance from the center of a circle to its outer rim.
+  半径指圆心与圆弧上点的距离。
 * {.reveal(when="compass" delay="4000")} The [{.step-target.pill.b.blue}diameter](target:d)
-  is the distance between two opposite points on a circle. It goes through its
-  center, and its length is [[twice|half|the same as]] the radius.
+ 直径表示圆上两个相对的点的距离。它穿过圆心，长度为半径的[[一半|两倍|相等长度]]。 
 * {.reveal(when="blank-0")} The [{.step-target.pill.b.green}circumference](target:c) 
-  (or perimeter) is the distance around a circle.
+ 周长（边缘长度）指环绕圆一周的长度。
 
 :::
 
